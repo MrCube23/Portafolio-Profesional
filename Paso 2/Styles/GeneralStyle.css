@@ -537,12 +537,12 @@
     display: none;
     padding: 50px;
     text-align: center;
-    --b: 0.5vh;   /* thickness of the border */
-    --c: var(--secondcomplement);   /* color of the border */
-    --w: 2vh;  /* width of border */
+    --b: 0.5vh;
+    --c: var(--secondcomplement); 
+    --w: 2vh;
     
   
-    border: var(--b) solid #0000; /* space for the border */
+    border: var(--b) solid #0000;
     --_g: #0000 90deg,var(--c) 0;
     --_p: var(--w) var(--w) border-box no-repeat;
     background:
