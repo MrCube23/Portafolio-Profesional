@@ -1,0 +1,32 @@
+{
+    "about": "Sobre Mí",
+    "tools": "Herramientas",
+    "works": "Proyectos",
+    "contact": "Contacto",
+    "aboutmetitle": "Acerca de mí",
+    "descAboutMe": "Estoy apasionado por explorar las últimas tecnologías para abordar diversos desafíos tecnológicos, ya sea en Windows, MacOS o Linux. Además, cuento con habilidades sólidas en el desarrollo y manejo de tecnologías clave como CSS para el diseño web, JavaScript para la interactividad, así como MySQL y SQL para la gestión de bases de datos. También tengo experiencia en el desarrollo de aplicaciones utilizando lenguajes como Java, C# y C. Estas habilidades me permiten abordar una amplia gama de proyectos con confianza y eficacia. Estoy preparado para aplicar estas competencias en proyectos desafiantes y colaborar con equipos para alcanzar soluciones innovadoras.",
+    "design": "Diseño",
+    "databases": "Bases de Datos",
+    "toolsID": "Herramientas",
+    "pageRights": "Todos los Derechos Reservados.",
+    "contactID": "Contáctame",
+    "nameFieldId": "Nombre",
+    "mailFieldId": "Correo",
+    "subjectFieldId": "Asunto",
+    "messageFieldId": "Mensaje",
+    "sendButtonForm": "Enviar",
+    "projectsID": "Proyectos",
+    "welcomeMessages": [
+        "Bienvenido a mi portafolio, donde cada proyecto cuenta una historia única!",
+        "Apasionado por los desafíos, siempre listo para superarlos y crecer en el proceso!",
+        "La creatividad es el lienzo en blanco donde pinto mi mundo!"
+    ],
+    "sweetAlertText": [
+        "Por favor, introduce una dirección de correo electrónico válida.",
+        "Completa todos los campos.",
+        "¡Gracias por contactarme!",
+        "Hubo un error enviando el correo."
+    ],
+    "projectTitle": "Titulo Projecto",
+    "projectDesc": "Descripcion sobre proyecto"
+}
