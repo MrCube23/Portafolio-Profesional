@@ -1,0 +1,34 @@
+{
+    "about": "About Me",
+    "tools": "Tools",
+    "works": "Projects",
+    "contact": "Contact",
+    "aboutmetitle": "About Me",
+    "descAboutMe": "Am passionate about exploring the latest technologies to address various technological challenges, whether it's on Windows, MacOS, or Linux. Additionally, I have strong skills in the development and management of key technologies such as CSS for web design, JavaScript for interactivity, as well as MySQL and SQL for database management. I also have experience in developing applications using languages like Java, C#, and C. These skills enable me to tackle a wide range of projects with confidence and efficiency. I am prepared to apply these competencies to challenging projects and collaborate with teams to achieve innovative solutions.",
+    "design": "Design",
+    "databases": "Data Bases",
+    "toolsID": "Tools",
+    "pageRights": "All Rights Reserve.",
+    "contactID": "Contact Me",
+    "nameFieldId": "Full Name",
+    "mailFieldId": "Mail",
+    "subjectFieldId": "Subject",
+    "messageFieldId": "Message",
+    "sendButtonForm": "Send",
+    "projectsID": "Projects",
+    "welcomeMessages": [
+        "Welcome to my portfolio, where each project tells a unique story!",
+        "Passionate about challenges, always ready to overcome them and grow in the process!",
+        "Creativity is the blank canvas where I paint my world!"
+    ],
+    "sweetAlertText": [
+        "Please enter a valid email address.",
+        "Complete all fields.",
+        "Thank you for contacting me!",
+        "There was an error sending the email."
+    ],
+    "projectTitle": "Pets INN",
+    "projectDesc": "PETS INN is a pet hospitality reservation software that streamlines booking management, client communication, and billing. With detailed pet profiles and an availability calendar, it provides operational efficiency and an enhanced experience for pet owners.",
+    "projectTitleTwo": "Vortex",
+    "projectDescTwo": "Vortex was born with the idea of creating a 2D adventure game set in a science fiction universe, where players embody a wandering scientist who ventures through desolate worlds to rescue devastated civilizations. Facing mutant creatures and solving puzzles, the scientist fights to save the future of the galaxy."
+}
