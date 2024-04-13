@@ -17,7 +17,7 @@
     "sendButtonForm": "Send",
     "projectsID": "Projects",
     "welcomeMessages": [
-        "Welcome to my portfolio, where each project tells a unique story!",
+        "Each project tells a unique story!",
         "Passionate about challenges, always ready to overcome them and grow in the process!",
         "Creativity is the blank canvas where I paint my world!"
     ],
@@ -30,5 +30,25 @@
     "projectTitle": "Pets INN",
     "projectDesc": "PETS INN is a pet hospitality reservation software that streamlines booking management, client communication, and billing. With detailed pet profiles and an availability calendar, it provides operational efficiency and an enhanced experience for pet owners.",
     "projectTitleTwo": "Vortex",
-    "projectDescTwo": "Vortex was born with the idea of creating a 2D adventure game set in a science fiction universe, where players embody a wandering scientist who ventures through desolate worlds to rescue devastated civilizations. Facing mutant creatures and solving puzzles, the scientist fights to save the future of the galaxy."
+    "projectDescTwo": "Vortex was born with the idea of creating a 2D adventure game set in a science fiction universe, where players embody a wandering scientist who ventures through desolate worlds to rescue devastated civilizations. Facing mutant creatures and solving puzzles, the scientist fights to save the future of the galaxy.",
+    "home": "Home",
+    "toolsDescBox": "In this section, I showcase the programs and languages I have utilized in programming projects as well as personal initiatives. A description of each tool is provided.",
+    "projectsDescBox": "In my Projects section, I invite you to explore my endeavors where various challenges were tackled. From social innovations to creative inspiration and solutions for a video game.",
+    "contactDescBox": "Connect with me! In my Contact section, I offer you a direct channel to communicate with me. Feel free to reach out and start a new chapter!",
+    "toolD1": "Collaborative design platform for efficiently creating and prototyping digital interfaces.",
+    "toolD2": "Vector design software for crafting high-quality graphics, illustrations, and logos with precision.",
+    "toolD3": "Image editing and graphic design tool for retouching photos and creating artistic compositions.",
+    "toolD4": "Web development framework that streamlines the creation of modern, responsive sites with pre-set components.",
+    "toolF1": "Programming language used to add interactivity and dynamic functionality to web pages.",
+    "toolF2": "Styling language used to control the design and presentation of HTML documents.",
+    "toolF3": "Standard markup language used to create the structure and content of web pages.",
+    "toolF4": "JavaScript library that simplifies DOM manipulation and the creation of effects and animations on web pages.",
+    "toolB1": "Server-side JavaScript runtime environment that enables building scalable web applications.",
+    "toolB2": "Programming language primarily used for creating desktop and mobile applications in the .NET.",
+    "toolB3": "Popular programming language known for its portability and widespread use in enterprise, mobile, and web application development.",
+    "toolB4": "Pogramming language that offers high performance and is used in gaming, operating systems, and software applications.",
+    "toolBC1": "Language for managing relational databases, used for querying and manipulating data in RDBMS systems.",
+    "toolBC2": "Open-source relational database management system, popular in web and enterprise applications for its performance.",
+    "toolBC3": "Document-oriented NoSQL database, ideal for modern applications handling unstructured data.",
+    "toolBC4": "Cross-platform database management tool, supporting various management systems and schema design."
 }

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.ico">
+    <!-- <link id="favicon" rel="shortcut icon" type="image/png" href="/img/favicon_c5088e888c97ad440a61d247596f88e5.png" src="/img/favicon_c5088e888c97ad440a61d247596f88e5.png"> -->
+    <link rel="icon" type="image/png"  sizes="180x180" href="Assets/Images/faviconimg_negatev2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="Styles/GeneralStyle.css">
@@ -19,7 +20,7 @@
               <span><img src="Assets/Images/rubik-v2.png" alt="Rubik" class="responsive-img"/></span>
             </div>
             <div class="carousel-container">
-              <p id="carousel-text" class="circle-text active">Bienvenido a mi portafolio, donde cada proyecto cuenta una historia única!</p>
+              <p id="carousel-text" class="circle-text active">¡Cada proyecto cuenta una historia única!</p>
             </div>
           </div>
         </div>
@@ -53,6 +54,9 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
+                <a class="nav-link" id="start" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" id="about">Sobre Mí</a>
               </li>
               <li class="nav-item">
@@ -83,141 +87,160 @@
       </div>
       <div class="color-bar"></div>
       <p class="regular-spacing" id="descAboutMe">Estoy apasionado por explorar las últimas tecnologías para abordar diversos desafíos tecnológicos, ya sea en Windows, MacOS o Linux. Además, cuento con habilidades sólidas en el desarrollo y manejo de tecnologías clave como CSS para el diseño web, JavaScript para la interactividad, así como MySQL y SQL para la gestión de bases de datos. También tengo experiencia en el desarrollo de aplicaciones utilizando lenguajes como Java, C# y C. Estas habilidades me permiten abordar una amplia gama de proyectos con confianza y eficacia. Estoy preparado para aplicar estas competencias en proyectos desafiantes y colaborar con equipos para alcanzar soluciones innovadoras.</p>
-      <div><a class="CV-Link" target='_blank' rel='noopener noreferrer' href="https://drive.google.com/file/d/1CMSAEODKwj19TdGSrk1KH4-eU6wF1Avj/view">Curriculum</a></div>
+      <div><button class="CV-Link" onclick="window.open('https://drive.google.com/file/d/1CMSAEODKwj19TdGSrk1KH4-eU6wF1Avj/view', '_blank')">Curriculum</button></div>
     </div>
   </section>
 </section>
 
   <section class="container mt-4"  id="toolsSectionID">
     <div class="testsection tools-tab">
-    <h1 class="tools-title" id="toolsID">Herramientas</h1>
-    <div id="Diseño" class="tabcontent tool-tab">
-      <h1 id="design">Diseño</h1>
-      <div class="tool-card-container">
-        <div class="tool-card">
-          <img src="Assets/Images/figma-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Figma</h2>
+      <div class="tools-container">
+      <h1 class="tools-title" id="toolsID">Herramientas</h1>
+      <p id="tools-desc-box">En esta sección, se muestran los programas y lenguajes que he empleado en proyectos de programación como en iniciativas personales. Se proporciona una descripción de cada herramienta.</p>
+      <div id="Diseño" class="tabcontent tool-tab">
+        <h1 id="design">Diseño</h1>
+        <div class="tool-card-container">
+          <div class="tool-card">
+            <img src="Assets/Images/figma-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Figma</h2>
+              <span id="toolD1">Plataforma de diseño colaborativo para crear y prototipar interfaces digitales de forma eficiente.</span>
+            </div>
           </div>
-        </div>
-      
-        <div class="tool-card">
-          <img src="Assets/Images/adobe-illustrator-cs6-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Illustrator</h2>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/adobe-illustrator-cs6-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Illustrator</h2>
+              <span id="toolD2">Software de diseño vectorial para crear gráficos, ilustraciones y logotipos de alta calidad con precisión.</span>
+            </div>
           </div>
-        </div>
 
-        <div class="tool-card">
-          <img src="Assets/Images/adobe-photoshop-cs6-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Photoshop</h2>
+          <div class="tool-card">
+            <img src="Assets/Images/adobe-photoshop-cs6-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Photoshop</h2>
+              <span id="toolD3">Herramienta de edición de imágenes y diseño gráfico para retocar fotos y crear composiciones artísticas.</span>
+            </div>
           </div>
-        </div>
-      
-        <div class="tool-card">
-          <img src="Assets/Images/bootstrap-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Bootstrap</h2>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/bootstrap-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Bootstrap</h2>
+              <span id="toolD4">Framework de desarrollo web que facilita la creación de sitios modernos y responsivos con componentes preestablecidos.</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div id="FrontEnd" class="tabcontent tool-tab">
-      <h1>Front-End</h1>
-      <div class="tool-card-container">
-        <div class="tool-card">
-          <img src="Assets/Images/javascript-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>JavaScript</h2>
-          </div>
-        </div>
       
-        <div class="tool-card">
-          <img src="Assets/Images/css3-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Cascading Style</h2>
+      <div id="FrontEnd" class="tabcontent tool-tab">
+        <h1>Front-End</h1>
+        <div class="tool-card-container">
+          <div class="tool-card">
+            <img src="Assets/Images/javascript-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>JavaScript</h2>
+              <span id="toolF1">Lenguaje de programación utilizado para agregar interactividad y funcionalidad dinámica a las páginas web.</span>
+            </div>
           </div>
-        </div>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/css3-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Cascading Style</h2>
+              <span id="toolF2">Lenguaje de estilo utilizado para controlar el diseño y la presentación de los documentos HTML.</span>
+            </div>
+          </div>
 
-        <div class="tool-card">
-          <img src="Assets/Images/html-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>HyperText Markup</h2>
+          <div class="tool-card">
+            <img src="Assets/Images/html-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>HyperText Markup</h2>
+              <span id="toolF3">Lenguaje de marcado estándar utilizado para crear la estructura y el contenido de las páginas web.</span>
+            </div>
           </div>
-        </div>
-      
-        <div class="tool-card">
-          <img src="Assets/Images/jquery-logo-vector-1.svg">
-          <div class="tool-card-content">
-            <h2>JQuery</h2>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/jquery-logo-vector-1.svg">
+            <div class="tool-card-content">
+              <h2>JQuery</h2>
+              <span id="toolF4">Biblioteca de JavaScript que simplifica la manipulación del DOM y la creación de efectos y animaciones en páginas web.</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div id="BackEnd" class="tabcontent tool-tab">
-      <h1>Back-End</h1>
-      <div class="tool-card-container">
-        <div class="tool-card">
-          <img src="Assets/Images/nodejs-icon-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Node</h2>
-          </div>
-        </div>
       
-        <div class="tool-card">
-          <img src="Assets/Images/c-sharp-c-seeklogo.svg">
-          <div class="tool-card-content">
-            <h2>C Sharp</h2>
+      <div id="BackEnd" class="tabcontent tool-tab">
+        <h1>Back-End</h1>
+        <div class="tool-card-container">
+          <div class="tool-card">
+            <img src="Assets/Images/nodejs-icon-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Node</h2>
+              <span id="toolB1">Entorno de ejecución de JavaScript del lado del servidor que permite construir aplicaciones web escalables.</span>
+            </div>
           </div>
-        </div>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/c-sharp-c-seeklogo.svg">
+            <div class="tool-card-content">
+              <h2>C Sharp</h2>
+              <span id="toolB2">Lenguaje de programación utilizado principalmente para crear aplicaciones de escritorio y móviles en .NET.</span>
+            </div>
+          </div>
 
-        <div class="tool-card">
-          <img src="Assets/Images/java-logo-vector-1.svg">
-          <div class="tool-card-content">
-            <h2>Java</h2>
+          <div class="tool-card">
+            <img src="Assets/Images/java-logo-vector-1.svg">
+            <div class="tool-card-content">
+              <h2>Java</h2>
+              <span id="toolB3">Lenguaje de programación utilizado por su portabilidad y su amplio uso en el desarrollo de aplicaciones empresariales y móviles.</span>
+            </div>
           </div>
-        </div>
-      
-        <div class="tool-card">
-          <img src="Assets/Images/c-plus-plus-seeklogo.svg">
-          <div class="tool-card-content">
-            <h2>C++</h2>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/c-plus-plus-seeklogo.svg">
+            <div class="tool-card-content">
+              <h2>C++</h2>
+              <span id="toolB4">Lenguaje de programación de alto rendimiento y utilizado en juegos, sistemas operativos y aplicaciones de software.</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div id="BasesDatos" class="tabcontent tool-tab">
-      <h1 id="databases">Bases de datos</h1>
-      <div class="tool-card-container">
-        <div class="tool-card">
-          <img src="Assets/Images/microsoft-sql-server-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>SQL</h2>
-          </div>
-        </div>
       
-        <div class="tool-card">
-          <img src="Assets/Images/mysql-logo-vector-1.svg">
-          <div class="tool-card-content">
-            <h2>MySQL</h2>
+      <div id="BasesDatos" class="tabcontent tool-tab">
+        <h1 id="databases">Bases de datos</h1>
+        <div class="tool-card-container">
+          <div class="tool-card">
+            <img src="Assets/Images/microsoft-sql-server-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>SQL</h2>
+              <span id="toolBC1">Lenguaje para la gestión de bases de datos relacionales, utilizado para consultar y manipular datos en sistemas RDBMS.</span>
+            </div>
           </div>
-        </div>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/mysql-logo-vector-1.svg">
+            <div class="tool-card-content">
+              <h2>MySQL</h2>
+              <span id="toolBC2">Sistema de gestión de bases de datos relacional de código abierto, popular en aplicaciones web y empresariales por su rendimiento.</span>
+            </div>
+          </div>
 
-        <div class="tool-card">
-          <img src="Assets/Images/mongodb-logo-vector.svg">
-          <div class="tool-card-content">
-            <h2>Mongo DB</h2>
+          <div class="tool-card">
+            <img src="Assets/Images/mongodb-logo-vector.svg">
+            <div class="tool-card-content">
+              <h2>Mongo DB</h2>
+              <span id="toolBC3">Base de datos NoSQL de documentos, ideal para aplicaciones modernas que manejan datos no estructurados.</span>
+            </div>
           </div>
-        </div>
-      
-        <div class="tool-card">
-          <img src="Assets/Images/DBeaver-Logo.wine.svg">
-          <div class="tool-card-content">
-            <h2>DBeaver</h2>
+        
+          <div class="tool-card">
+            <img src="Assets/Images/DBeaver-Logo.wine.svg">
+            <div class="tool-card-content">
+              <h2>DBeaver</h2>
+              <span id="toolBC4">Herramienta de administración de bases de datos multiplataforma, que soporta varios sistemas de gestión y ofrece funciones SQL y de diseño de esquemas.</span>
+            </div>
           </div>
         </div>
       </div>
@@ -232,6 +255,7 @@
   <section class="container mt-4" id="projectsSectionID">
     <section class="testsection proyects">
       <h1 id="projectsID">Proyectos</h1>
+      <p id="projects-desc-box">En mi sección de Proyecto, te invito a observar mis proyectos donde se resolvieron diversos desafíos. Desde innovaciones sociales, hasta inspiración y soluciones creativas para un video juego.</p>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
@@ -277,6 +301,7 @@
   <section class="container mt-4"  id="contactSectionID">
     <section class="testsection HeightFixRespo">
       <h1 id="contactID">Contáctame</h1>
+      <p id="contact-desc-box">¡Conéctate conmigo! En mi sección de Contacto, te ofrezco un canal directo para comunicarte conmigo. ¡No dudes en ponerte en contacto y para comenzar un nuevo capítulo!</p>
       <form class="row g-3" id="contactForm">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label" id="nameFieldId">Nombre</label>
@@ -311,9 +336,9 @@
         <div class="row">
           <div class="col-md-12">
             <ul class="list-inline social-media-icons mb-2">
-              <li class="list-inline-item"><a href="https://www.linkedin.com/in/emyel-vado/"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-inline-item"><a href="https://wa.me/+50684423482"><i class="fab fa-whatsapp"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/MrCube23"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/emyel-vado/"><i class="fab fa-linkedin-in linkedIn"></i></a></li>
+              <li class="list-inline-item"><a href="https://wa.me/+50684423482"><i class="fab fa-whatsapp whatsApp"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/MrCube23"><i class="fab fa-github gitHub"></i></a></li>
             </ul>
             <p class="mb-0">&copy; 2024 Emyel Vado <p id="pageRights">Todos los Derechos Reservados.</p></p>
           </div>

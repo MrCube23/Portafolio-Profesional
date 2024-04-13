@@ -17,9 +17,9 @@
     "sendButtonForm": "Enviar",
     "projectsID": "Proyectos",
     "welcomeMessages": [
-        "Bienvenido a mi portafolio, donde cada proyecto cuenta una historia única!",
-        "Apasionado por los desafíos, siempre listo para superarlos y crecer en el proceso!",
-        "La creatividad es el lienzo en blanco donde pinto mi mundo!"
+        "¡Cada proyecto cuenta una historia única!",
+        "¡Apasionado por los desafíos, siempre listo para superarlos y crecer en el proceso!",
+        "¡La creatividad es el lienzo en blanco donde pinto mi mundo!"
     ],
     "sweetAlertText": [
         "Por favor, introduce una dirección de correo electrónico válida.",
@@ -30,5 +30,25 @@
     "projectTitle": "Pets INN",
     "projectDesc": "PETS INN es un software de reserva de hotelería para mascotas que simplifica la gestión de reservas, comunicación con clientes y facturación. Con perfiles detallados de mascotas y un calendario de disponibilidad, ofrece eficiencia operativa y una experiencia mejorada para los dueños de mascotas.",
     "projectTitleTwo": "Vortex",
-    "projectDescTwo": "Vortex nació con la idea de crear un juego de aventuras en 2D ambientado en un universo de ciencia ficción, donde los jugadores encarnan a un científico errante que se aventura a través de mundos desolados para rescatar civilizaciones devastadas. Enfrentando criaturas mutantes y resolviendo acertijos, el científico lucha por salvar el futuro de la galaxia."
+    "projectDescTwo": "Vortex nació con la idea de crear un juego de aventuras en 2D ambientado en un universo de ciencia ficción, donde los jugadores encarnan a un científico errante que se aventura a través de mundos desolados para rescatar civilizaciones devastadas. Enfrentando criaturas mutantes y resolviendo acertijos, el científico lucha por salvar el futuro de la galaxia.",
+    "home": "Inicio",
+    "toolsDescBox": "En esta sección, se muestran los programas y lenguajes que he empleado en proyectos de programación como en iniciativas personales. Se proporciona una descripción de cada herramienta.",
+    "projectsDescBox": "En mi sección de Proyecto, te invito a observar mis proyectos donde se resolvieron diversos desafíos. Desde innovaciones sociales, hasta inspiración y soluciones creativas para un video juego.",
+    "contactDescBox": "Conéctate conmigo! En mi sección de Contacto, te ofrezco un canal directo para comunicarte conmigo. ¡No dudes en ponerte en contacto y para comenzar un nuevo capítulo!",
+    "toolD1": "Plataforma de diseño colaborativo para crear y prototipar interfaces digitales de forma eficiente.",
+    "toolD2": "Software de diseño vectorial para crear gráficos, ilustraciones y logotipos de alta calidad con precisión.",
+    "toolD3": "Herramienta de edición de imágenes y diseño gráfico para retocar fotos y crear composiciones artísticas.",
+    "toolD4": "Framework de desarrollo web que facilita la creación de sitios modernos y responsivos con componentes preestablecidos.",
+    "toolF1": "Lenguaje de programación utilizado para agregar interactividad y funcionalidad dinámica a las páginas web.",
+    "toolF2": "Lenguaje de estilo utilizado para controlar el diseño y la presentación de los documentos HTML.",
+    "toolF3": "Lenguaje de marcado estándar utilizado para crear la estructura y el contenido de las páginas web.",
+    "toolF4": "Biblioteca de JavaScript que simplifica la manipulación del DOM y la creación de efectos y animaciones en páginas web.",
+    "toolB1": "Entorno de ejecución de JavaScript del lado del servidor que permite construir aplicaciones web escalables.",
+    "toolB2": "Lenguaje de programación utilizado principalmente para crear aplicaciones de escritorio y móviles en .NET.",
+    "toolB3": "Lenguaje de programación utilizado por su portabilidad y su amplio uso en el desarrollo de aplicaciones empresariales y móviles.",
+    "toolB4": "Lenguaje de programación de alto rendimiento y utilizado en juegos, sistemas operativos y aplicaciones de software.",
+    "toolBC1": "Lenguaje para la gestión de bases de datos relacionales, utilizado para consultar y manipular datos en sistemas RDBMS.",
+    "toolBC2": "Sistema de gestión de bases de datos relacional de código abierto, popular en aplicaciones web y empresariales por su rendimiento.",
+    "toolBC3": "Base de datos NoSQL de documentos, ideal para aplicaciones modernas que manejan datos no estructurados.",
+    "toolBC4": "Herramienta de administración de bases de datos, que soporta varios sistemas de gestión y de diseño de esquemas."
 }
