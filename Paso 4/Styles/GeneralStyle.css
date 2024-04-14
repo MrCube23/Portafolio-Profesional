@@ -153,7 +153,7 @@
   
     .circle {
       width: 580px;
-      height: 68VH;
+      height: 60VH;
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -747,4 +747,14 @@ section.testsection.proyects {
 
 .gitHub:hover{
   color: whitesmoke;
+}
+
+@media (max-width: 962px){
+  .col-md-6 {
+      width: 100% !important; 
+  }
+
+  .card-img-top {
+    height: 100% !important;
+  }
 }

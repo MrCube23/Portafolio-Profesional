@@ -4,7 +4,7 @@ window.sweetText = null;
 
 async function loadLanguage(language) {
     try {
-        const response = await fetch('../Assets/Languages/' + language + '.json');
+        const response = await fetch('Assets/Languages/' + language + '.json');
         const data = await response.json();
 
 
